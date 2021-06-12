@@ -17,7 +17,9 @@ module.exports = {
   entry: {
     client: './src/start.tsx',
   },
-
+  watchOptions:{
+    ignored: /node_modules/
+  },
   module: {
     rules: [
       {
